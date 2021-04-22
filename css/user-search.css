@@ -1,0 +1,109 @@
+@charset "UTF-8";
+/* Modal Content/Box */
+#wrapper {
+	background-color: #fefefe;
+	margin: 4% auto; /* 4% from the top and centered */
+	padding: 20px;
+	border: 1px solid #888;
+	width: 40%; 
+	text-align: center;
+    box-sizing: border-box;
+}
+/* Form */
+/* Full-width input fields */
+input[type=text], input[type=password] {
+	width: 100%;
+	padding: 15px 0;
+	margin: 5px 0 22px 0;
+	display: inline-block;
+	border: none;
+	background: #f1f1f1;
+}
+input[type=text]:focus, input[type=password]:focus {
+	background-color: #ddd;
+	outline: none;
+}
+hr {
+	border: 1px solid #f1f1f1;
+	margin-bottom: 25px;
+}
+/* Set a style for all buttons */
+.searchbtn {
+	background-color: #b76e79;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	opacity: 0.9;
+}
+.searchbtn:hover {
+	opacity:1;
+}
+/* Add padding to container elements */
+.form-container {
+	padding: 16px;
+}
+/* Clear floats */
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #b76e79;
+  color: white;
+}
+
+.secondLinks {
+	background-color: #b76e79;
+	color: white;
+	padding: 10px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	opacity: 0.9;
+	border-radius: 50px;
+}
+.secondLinks:hover {
+	opacity:1;
+}
+.custom-select {
+	margin: 30px auto;
+}
+.custom-select select {
+	padding: 10px;	
+}
+.custom-select select option {
+  	padding: 30px;
+}
+
+
+
+/* Mobile */
+@media (max-width: 599px) {
+  #wrapper {
+    width: 100%;
+  }
+}
